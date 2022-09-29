@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #003542;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: gold;
+}
+
+#homesec {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-shadow: 5px 5px 5px red;
+    font-family: Copperplate;
+    font-size: 80px;
+}
+
+#upper {
+    padding-bottom: 20px;
+}
