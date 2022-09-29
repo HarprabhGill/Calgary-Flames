@@ -8,7 +8,7 @@ ul li {
     float: left;
     width: 200px;
     height: 40px;
-    background-color: #003542;
+    background-color: red;
     opacity: .9;
     line-height: 40px;
     text-align: center;
@@ -18,26 +18,32 @@ ul li {
 ul li a{
     display: block;
     text-decoration: none;
-    color: white;
+    color: yellow;
+    font-family: 'Apple Chancery';
 }
 
 ul li a:hover {
-    background-color: gold;
+    background-color: black;
+    color: yellow;
 }
 
 #homesec {
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: red;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-shadow: 5px 5px 5px red;
-    font-family: Copperplate;
+    text-shadow: 5px 5px 5px yellow;
+    font-family: fantasy;
     font-size: 80px;
 }
 
 #upper {
     padding-bottom: 20px;
+}
+
+#homeback {
+    background-color: black;
 }
