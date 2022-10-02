@@ -2,13 +2,15 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 ul li {
     float: left;
     width: 200px;
     height: 40px;
-    background-color: red;
+    background-color: white;
     opacity: .9;
     line-height: 40px;
     text-align: center;
@@ -18,32 +20,76 @@ ul li {
 ul li a{
     display: block;
     text-decoration: none;
-    color: yellow;
-    font-family: 'Apple Chancery';
+    color: #cb0729;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
 }
 
 ul li a:hover {
     background-color: black;
-    color: yellow;
 }
 
 #homesec {
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    color: red;
+    color: white;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-shadow: 5px 5px 5px yellow;
-    font-family: fantasy;
-    font-size: 80px;
-}
-
-#upper {
-    padding-bottom: 20px;
+    text-shadow: 4px 4px 5px yellow;
+    font-family: Verdana;
+    font-size: 50px;
 }
 
 #homeback {
-    background-color: black;
+    background-color: #cb0729;
+}
+
+#brief {
+    margin-top: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px yellow;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#playersecs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20;
+    display: flex;
+    flex-direction: row;
+}
+
+#playerpics {
+    width: 600px;
+    margin-right: 50px;
+}
+
+#playerinfo {
+    width: 700px;
+}
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#contractpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
