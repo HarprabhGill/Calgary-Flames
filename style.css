@@ -31,7 +31,6 @@ ul li a:hover {
 }
 
 #homesec {
-    padding: 30px;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -40,11 +39,15 @@ ul li a:hover {
     text-decoration-style: solid;
     text-shadow: 4px 4px 5px yellow;
     font-family: Verdana;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #homeback {
     background-color: #cb0729;
+}
+
+#conback {
+    background-image: url("assets/back.jpg");
 }
 
 #brief {
@@ -124,8 +127,24 @@ input[type=text], select, textarea {
     color: red;
     background-color: yellow;
     border-radius: 10px;
+    font-family: Verdana;
+    font-weight: bold;
 }
 
 #conlabel {
     color: yellow;
+}
+
+#aboutcss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+#abouttext {
+    width: 700px;
+    font-family: Verdana;
+    color: white;
 }
