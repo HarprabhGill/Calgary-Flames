@@ -93,3 +93,39 @@ td, th {
     flex-direction: column;
     margin-top: 50px;
 }
+
+#contact {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 600px;
+}
+
+#contactform {
+    border-radius: 10px;
+    background-color:black;
+    padding: 20px;
+    width: 700px;
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid yellow; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+#submit {
+    color: red;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#conlabel {
+    color: yellow;
+}
